@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <img src="images/logo.svg" alt="" class="header__logo">
+      <nav>
+        <div class="nav__items-container">
+          <div class="nav__item">
+            <div class="nav__dropdown-name dropdown__header">Features
+              <img src="images/icon-arrow-up.svg" alt=">" class="dropdown__arrow">
+            </div>
+            <div class="nav__dropdown-container nav__dropdown-1">
+
+              <div class="nav__dropdown-item">
+                <img src="images/icon-todo.svg" alt="Todo" class="dropdown__img">
+                <p>Todo LIst</p>
+              </div>
+
+              <div class="nav__dropdown-item">
+                <img src="images/icon-calendar.svg" alt="Calender" class="dropdown__img">
+                <p>Calender</p>
+              </div>
+
+              <div class="nav__dropdown-item">
+                <img src="images/icon-reminders.svg" alt="Reminders" class="dropdown__img">
+                <p>Reminders</p>
+              </div>
+
+              <div class="nav__dropdown-item">
+                <img src="images/icon-planning.svg" alt="Planning" class="dropdown__img">
+                <p>Planning</p>
+              </div>
+            </div>
+          </div>
+          <div class="nav__item">
+            <div class="nav__item">
+              <div class="nav__dropdown-name dropdown__header">Company
+                <img src="images/icon-arrow-up.svg" alt=">" class="dropdown__arrow">
+              </div>
+              <div class="nav__dropdown-container nav__dropdown-2">
+
+                <div class="nav__dropdown-item">
+                  <p>History</p>
+                </div>
+
+
+                <div class="nav__dropdown-item">
+                  <p>Our Team</p>
+                </div>
+
+
+                <div class="nav__dropdown-item">
+                  <p>Blog</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nav__item">
+            <div class="nav__dropdown-name">Careers</div>
+          </div>
+          <div class="nav__item">
+            <div class="nav__dropdown-name">About</div>
+          </div>
+        </div>
+      </nav>
+      <a href="#" class="header__login header__notnav">Login</a>
+      <button class="header__register header__notnav">Register</button>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="mobile__slide-container">
+        <div class="mobile__nav-container">
+          <div class="mobile__nav-items">
+            <div class="mobile__dropdown">
+              <div class="mobile__nav-name">Features
+                <img src="images/icon-arrow-up.svg" alt=">" class="mobile__dropdown-arrow">
+              </div>
+              <div class="mobile__dropdown-container">
+                <div class="mobile__dropdown-items">
+                  <img src="images/icon-todo.svg" alt="Todo" class="dropdown__img">
+                  <p>Todo LIst</p>
+                </div>
+                <div class="mobile__dropdown-items"><img src="images/icon-calendar.svg" alt="Calender"
+                    class="dropdown__img">
+                  <p>Calender</p>
+                </div>
+                <div class="mobile__dropdown-items"> <img src="images/icon-reminders.svg" alt="Reminders"
+                    class="dropdown__img">
+                  <p>Reminders</p>
+                </div>
+                <div class="mobile__dropdown-items">
+                  <img src="images/icon-planning.svg" alt="Planning" class="dropdown__img">
+                  <p>Planning</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mobile__nav-items">
+            <div class="mobile__nav-dropdown">
+              <div class="mobile__nav-name">Company
+                <img src="images/icon-arrow-up.svg" alt=">" class="mobile__dropdown-arrow">
+              </div>
+              <div class="mobile__dropdown-container">
+                <div class="mobile__dropdown-items">
+                  <p>History</p>
+                </div>
+                <div class="mobile__dropdown-items">
+                  <p>Our Team</p>
+                </div>
+                <div class="mobile__dropdown-items">
+                  <p>Blog</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mobile__nav-items">
+            <div class="mobile__nav-name">Careers</div>
+          </div>
+          <div class="mobile__nav-items">
+            <div class="mobile__nav-name">About</div>
+          </div>
+        </div>
+        <a href="#" class="mobile__login-link center-align">Login</a>
+        <button class="mobile__register-button center-align">Register</button>
+      </div>
+    </header>
+
+    <section class=" hero__section">
+      <div class="hero__column-one">
+        <h1> Make remote work</h1>
+        <p> Get your team in sync, no matter your location.
+          Streamline processes,
+          create team rituals, and watch productivity soar.</p>
+        <button class="hero__button">Learn more</button>
+        <div class="hero__companies-container">
+          <img src="images/client-databiz.svg" alt="client-databiz" class="company__img">
+          <img src="images/client-audiophile.svg" alt="client-audiophile" class="company__img">
+          <img src="images/client-meet.svg" alt="client-meet" class="company__img">
+          <img src="images/client-maker.svg" alt="client-maker" class="company__img">
+        </div>
+      </div>
+      <img src="images/image-hero-desktop.png" alt="trippy-image" class="hero__img">
+    </section>
+  </main>
+  <div>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/practitionerofsorts"
+        target="_blank">practitionerofsorts/promise</a>.
+    </p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
